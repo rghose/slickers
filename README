@@ -17,3 +17,26 @@ An idle player would be booted (or removed) from the game.
 
 The server restarts with the same parameters after a game is finished.
 
+Build steps:
+--------------
+
+For Ubuntu:
+# sudo apt-get install linbcurses-dev
+# make
+
+How to run:
+------------
+
+Start server with:
+
+../bin/server_main -N 20 -M 10 -P 1025
+
+-N : The grid size in this case will be 20x20
+-M : The number of randomly placed gems
+-P : Port on which to listen
+
+
+Start the client with:
+
+../bin/client -P 1024
+
