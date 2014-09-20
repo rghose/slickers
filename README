@@ -1,0 +1,19 @@
+Slickers
+---------
+(C) Rahul Ghose
+License: GPL 3.0
+
+A multiplayer treasure hunt game where multiple users can connect and play a game of treasure hunt.
+
+Points are awarded for each player.
+
+The software consists of a server and a client. The server sets the game parameters, i.e., the grid size and number of randomly placed treasure spots.
+
+The server then waits for players to connect within a specified amount of time after which the game starts.
+
+The game is over after all the treasure spots in the grid are grabbed by the players. A treasure is grabbed by an user who moves into that spot in the grid. Movement is via arrow keys. Each individual player is assigned a player number which is shown on the grid when the game is being played.
+
+An idle player would be booted (or removed) from the game.
+
+The server restarts with the same parameters after a game is finished.
+
