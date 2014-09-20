@@ -21,7 +21,7 @@ Build steps:
 --------------
 
 For Ubuntu:
-# sudo apt-get install linbcurses-dev
+# sudo apt-get install libncurses-dev
 # make
 
 How to run:
